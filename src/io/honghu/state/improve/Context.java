@@ -1,6 +1,7 @@
 package io.honghu.state.improve;
 
 public class Context {
+
     public final static OpenningState openningState = new OpenningState();
     public final static ClosingState closingState = new ClosingState();
     public final static RunningState runningState = new RunningState();
