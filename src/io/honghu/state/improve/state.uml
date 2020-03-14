@@ -4,8 +4,8 @@
   <OriginalElement>io.honghu.state.improve</OriginalElement>
   <nodes>
     <node x="268.0" y="399.0">io.honghu.state.improve.Client</node>
-    <node x="229.5" y="0.0">io.honghu.state.improve.LiftState</node>
     <node x="0.0" y="234.0">io.honghu.state.improve.OpenningState</node>
+    <node x="229.5" y="0.0">io.honghu.state.improve.LiftState</node>
     <node x="172.0" y="234.0">io.honghu.state.improve.RunningState</node>
     <node x="336.0" y="234.0">io.honghu.state.improve.ClosingState</node>
     <node x="0.0" y="399.0">io.honghu.state.improve.Context</node>
@@ -39,7 +39,9 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="0.8737727910238429" x="326.0" y="346.5" />
-  <SelectedNodes />
+  <SelectedNodes>
+    <node>io.honghu.state.improve.Client</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

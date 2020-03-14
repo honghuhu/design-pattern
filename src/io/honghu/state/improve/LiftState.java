@@ -1,6 +1,5 @@
 package io.honghu.state.improve;
 
-
 public abstract class LiftState {
 
     protected Context context;
