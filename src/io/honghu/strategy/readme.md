@@ -15,7 +15,7 @@ Define a family of algorithms,encapsulate eachone,and make them interchangeable.
 
 ### 策略模式在JDK-Arrays 应用的源码分析
 1. JDK的 Arrays 的Comparator就使用了策略模式
-2. 代码分析+Debug源码+模式角色分析
+2. 代码分析
 ```java
 class Strategy {
     public static void main(String[] args) {
@@ -26,6 +26,7 @@ class Strategy {
          */
         Comparator<Integer> comparator = (t1, t2) -> t1 > t2 ? 1 : -1;
         Arrays.sort(array, comparator);
+        System.out.println(Arrays.toString(array));
     }
 }
 ```
