@@ -1,6 +1,6 @@
 package io.honghu.responsibilitychain.improve;
 
-public abstract class Handler {
+public abstract class Handler extends Client {
 
     public final static int FATHER_LEVEL_REQUEST = 1;
 
@@ -11,7 +11,7 @@ public abstract class Handler {
     /**
      * 能处理的级别
      */
-    private int level = 0;
+    private int level;
 
     /**
      * 责任传递，下一个责任人是谁

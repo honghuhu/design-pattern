@@ -7,7 +7,7 @@ Allow an object to alter its behavior when its internal statechanges.The object 
 状态模式的核心是封装，状态的变更引起了行为的变更，从外部看起来就好像这个对象对应的类发生了改变一样。
 
 ### 代码解读
-![](improve/state-uml.png)
+![类图](improve/uml/state.png)
 
 状态模式中的3个角色:
 -  LiftState - 抽象状态角色

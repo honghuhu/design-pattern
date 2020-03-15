@@ -2,8 +2,9 @@
 
 |编号|名称|代码|文档|阅读
 |:----:|:----:|:----:|:----:|:----:|
-|01|状态模式|✔️|100%|[jump](src/io/honghu/state/)|
-|02|责任链模式|✔️️|50%|[jump](src/io/honghu/responsibilitychain/)|
-|03|策略模式|✖️|0%||
+|01|状态模式|✔️|100%|[jump](src/io/honghu/state)|
+|02|责任链模式|✔️️|100%|[jump](src/io/honghu/responsibilitychain)|
+|03|策略模式|✖️|100%|[jump](src/io/honghu/strategy)|
 |04|建造者模式|✖️|0%||
 |05|装饰模式|✖️|0%||
+|06|享元模式|✖️|0%||

@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Client {
-
     public static void main(String[] args) {
-
         Random random = new Random();
         ArrayList<IWomen> arrayList = new ArrayList<>();
         for (int i = 0, len = 5; i < len; i++) {
