@@ -19,6 +19,17 @@ public class Client {
         house = houseDirector.constructHouse();
         System.out.println("输出流程: ");
         System.out.println(house.getBaise() + "\n" + house.getWall() + "\n" + house.getRoofed());
+
+//        控制台结果
+//        输出流程:
+//        ----- 普通房子地基5米
+//                ----- 普通房子砌墙10cm
+//                ----- 普通房子屋顶
+//                --------------------
+//        输出流程:
+//        ----- 高楼地基100米
+//                ----- 高楼的砌墙20cm
+//                ----- 高楼透明屋顶
     }
 }
 
