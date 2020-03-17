@@ -18,4 +18,4 @@ Attach additionalresponsibilities to an object dynamicallykeeping the same inter
 ### 装饰者模式在 JDK 应用的源码分析
 
 Java的IO结构，FilterInputStream就是一个装饰者
-![源码类图](uml/filterOutputStream.png)
+![源码类图](uml/FilterOutputStream.png)
