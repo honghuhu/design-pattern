@@ -7,6 +7,6 @@
 |03|行为|策略模式|Strategy|✔️️|100%|[jump](src/io/honghu/strategy)|
 |04|创建|建造者模式|Builder|✔️️|100%|[jump](src/io/honghu/builder)|
 |05|结构|装饰者模式|Decorator|✔️️|100%|[jump](src/io/honghu/decorator)|
-|06|结构|享元模式|Flyweight|✖️|0%|Flyweight|
+|06|结构|享元模式|Flyweight|✔️️|100%|[jump](src/io/honghu/flyweight)|
 |07|行为|命令模式|Command|✖️|0%|Command|
 |08|创建|原型模式|Prototype|✖️|0%|Prototype|
