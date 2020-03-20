@@ -5,7 +5,7 @@
 |:----:|:----:|:----:|:----:|
 |01|单例模式|适配器模式|模版方法模式|
 |02|抽象工厂模式|桥接模式|[命令模式](src/io/honghu/command)|
-|03|原型模式|[装饰者模式](src/io/honghu/decorator)|访问者模式|
+|03|[原型模式](src/io/honghu/prototype)|[装饰者模式](src/io/honghu/decorator)|访问者模式|
 |04|[建造者模式](src/io/honghu/builder)|组合模式|迭代器模式|
 |05|工厂模式|外观模式|观察者模式|
 |06| |[享元模式](src/io/honghu/flyweight)|中介者模式|
@@ -14,17 +14,6 @@
 |09| | |[状态模式](src/io/honghu/state)|
 |10| | |[策略模式](src/io/honghu/strategy)|
 |11| | |[职责链模式(责任链模式)](src/io/honghu/responsibilitychain)|
-
-|序号|模式|名称|英文|代码|文档|阅读
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|01|行为|状态模式|State|✔️|100%|[jump](src/io/honghu/state)|
-|02|行为|责任链模式|Chain of Responsibility|✔️️|100%|[jump](src/io/honghu/responsibilitychain)|
-|03|行为|策略模式|Strategy|✔️️|100%|[jump](src/io/honghu/strategy)|
-|04|创建|建造者模式|Builder|✔️️|100%|[jump](src/io/honghu/builder)|
-|05|结构|装饰者模式|Decorator|✔️️|100%|[jump](src/io/honghu/decorator)|
-|06|结构|享元模式|Flyweight|✔️️|100%|[jump](src/io/honghu/flyweight)|
-|07|行为|命令模式|Command|✔️️|100%|[jump](src/io/honghu/command)|
-|08|创建|原型模式|Prototype|✖️|0%|Prototype|
 
 #### 设计模式的六大原则
 
