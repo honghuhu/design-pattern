@@ -25,7 +25,7 @@ Separate the construction of a complex object from itsrepresentation so that the
     1. 隔离了客户与对象的生产过程
     2. 负责控制产品对象的生产过程。 
 
-### 建造者模式在 JDK 的应用和源码分析
+### 在 JDK 的应用和源码分析
 ![](improve/uml/StringBuilder.png)
 1. java.lang.StringBuilder中的建造者模式
 2. 代码说明
@@ -51,12 +51,12 @@ abstract class AbstractStringBuilder implements Appendable, CharSequence {
     }
 }
 ```
-### 源码中建造者模式角色分析
+### 源码中角色分析
 - Appendable 接口定义了多个 append 方法(抽象方法), 即 Appendable 为抽象建造者, 定义了抽象方法
 - AbstractStringBuilder 实现了 Appendable 接口方法，这里的 AbstractStringBuilder 已经是建造者，只是不能实例化
 - StringBuilder 即充当了指挥者角色，同时充当了具体的建造者，建造方法的实现是由 AbstractStringBuilder 完成, 而 StringBuilder 继承了 AbstractStringBuilder
 
-### 建造者模式的注意事项和细节
+### 注意事项和细节
 - 客户端(使用程序)不必知道产品内部组成的细节，将产品本身与产品的创建过程解耦，使得相同的创建过程可以创建不同的产品对象
 - 每一个具体建造者都相对独立，而与其他的具体建造者无关，因此可以很方便地替换具体建造者或增加新的具体建造者， 用户使用不同的具体建造者即可得到不同的产品对象
 - 可以更加精细地控制产品的创建过程 。将复杂产品的创建步骤分解在不同的方法中，使得创建过程更加清晰，也更方便使用程序来控制创建过程

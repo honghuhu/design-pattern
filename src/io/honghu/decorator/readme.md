@@ -15,7 +15,7 @@ Attach additionalresponsibilities to an object dynamicallykeeping the same inter
 - [Decorator](Decorator.java) 的cost 方法 进行一个费用的叠加计算，递归的计算价格
 - [Milk](Milk.java) 牛奶 - 装饰品
 
-### 装饰者模式在 JDK 应用的源码分析
+### 在 JDK 应用的源码分析
 
 Java的IO结构，FilterInputStream就是一个装饰者
 ![源码类图](uml/FilterOutputStream.png)

@@ -4,7 +4,7 @@
 |:----:|:----:|:----:|:----:|
 |01|单例模式|适配器模式|模版方法模式|
 |02|抽象工厂模式|桥接模式|[命令模式](src/io/honghu/command)|
-|03|[原型模式](src/io/honghu/prototype)|[装饰者模式](src/io/honghu/decorator)|访问者模式|
+|03|[原型模式](src/io/honghu/prototype)|[装饰者模式](src/io/honghu/decorator)|[访问者模式](src/io/honghu/visitor)|
 |04|[建造者模式](src/io/honghu/builder)|组合模式|迭代器模式|
 |05|工厂模式|外观模式|观察者模式|
 |06| |[享元模式](src/io/honghu/flyweight)|中介者模式|

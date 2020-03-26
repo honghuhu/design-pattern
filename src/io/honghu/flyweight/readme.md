@@ -14,7 +14,7 @@ Use sharing to supportlarge numbers of fine-grained objectsefficiently.
 
 [ShapeFactory](ShapeFactory.java) 有一个 [Circle](Circle.java) 的 HashMap，其中键名为 [Circle](Circle.java) 对象的颜色。无论何时接收到请求，都会创建一个特定颜色的圆。[ShapeFactory](ShapeFactory.java) 检查它的 HashMap 中的 circle 对象，如果找到 [Circle](Circle.java) 对象，则返回该对象，否则将创建一个存储在 hashmap 中以备后续使用的新对象，并把该对象返回到客户端。[Client](Client.java) 类使用 [ShapeFactory](ShapeFactory.java) 来获取 [Shape](Shape.java) 对象。它将向 [ShapeFactory](ShapeFactory.java) 传递信息（red / green / blue/ black / white），以便获取它所需对象的颜色。
 
-### 享元模式在 JDK 应用的源码分析
+### 在 JDK 应用的源码分析
 
 ```java
 class FlyWeight {
@@ -50,7 +50,7 @@ public final class Integer extends Number implements Comparable<Integer> {
 }
 ```
 
-### 享元模式的注意事项和细节
+### 注意事项和细节
 1. 在享元模式这样理解，“享”就表示共享，“元”表示对象
 2. 系统中有大量对象，这些对象消耗大量内存，并且对象的状态大部分可以外部化时，我们就可以考虑选用享元模式
 3. 用唯一标识码判断，如果在内存中有，则返回这个唯一标识码所标识的对象，用HashMap/HashTable存储
