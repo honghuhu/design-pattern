@@ -2,13 +2,12 @@ package io.honghu.strategy;
 
 public class PekingDuck extends Duck {
 
-    @Override
-    public void display() {
-        System.out.println("这是北京鸭...");
+    public PekingDuck() {
+        super(new BadFlyBehavior());
     }
 
     @Override
-    public void swim() {
-        System.out.println("北京鸭不能飞翔");
+    public void display() {
+        System.out.printf("我是北京鸭 --- ");
     }
 }

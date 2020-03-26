@@ -8,7 +8,7 @@ Avoid coupling the sender of a request to its receiver bygiving more than one ob
 - 责任链模式屏蔽了请求的处理过程，你发起一个请求到底是谁处理的，这个你不用关心，只要你把请求抛给责任链的第一个处理者，最终会返回一个处理结果（当然也可以不做任何处理），作为请求者可以不用知道到底是需要谁来处理的，这是责任链模式的核心，同时责任链模式也可以作为一种补救模式来使用。
 
 ### 代码解读
-![类图](improve/uml/responsibilitychain.png)
+![类图](uml/responsibilitychain.png)
 
 Handler 抽象类的三个职责:
 1. 自己的处理级别 level 

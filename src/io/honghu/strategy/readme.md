@@ -11,7 +11,7 @@ Define a family of algorithms,encapsulate eachone,and make them interchangeable.
     3. 多用组合/聚合，少用继承（客户通过组合方式使用策略）。
 
 ### 代码解读
-![类图](improve/uml/strategy.png)
+![类图](uml/strategy.png)
 
 ### 策略模式在JDK-Arrays 应用的源码分析
 1. JDK的 Arrays 的Comparator就使用了策略模式

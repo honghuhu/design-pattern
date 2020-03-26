@@ -11,7 +11,7 @@ Encapsulate a request as anobject,thereby letting you parameterize clients with 
 - 通俗易懂的理解：将军发布命令，士兵去执行。其中有几个角色：将军（命令发布者）、士兵（命令的具体执行者）、命令(连接将军和士兵)。Invoker是调用者（将军），Receiver是被调用者（士兵），MyCommand是命令，实现了Command接口，持有接收对象
 
 ### 代码解读
-![类图](improve/uml/command.png)
+![类图](uml/command.png)
 
 - [Command](improve/Command.java) 命令角色, 需要执行的所有命令都在这里, 可以是接口或抽象类 
 - [LightReceiver](improve/LightReceiver.java) 接受者角色, 知道如何实施和执行一个请求相关操作 

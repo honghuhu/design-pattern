@@ -8,7 +8,7 @@ Separate the construction of a complex object from itsrepresentation so that the
 - 建造者模式 是一步一步创建一个复杂的对象，它允许用户只通过指定复杂对象的类型和内容就可以构建它们，用户不需要知道内部的具体构建细节。
 
 ### 代码解读
-![类图](improve/uml/builder.png)
+![类图](uml/builder.png)
 
 - [Product](improve/House.java) 产品类
 
@@ -26,7 +26,7 @@ Separate the construction of a complex object from itsrepresentation so that the
     2. 负责控制产品对象的生产过程。 
 
 ### 在 JDK 的应用和源码分析
-![](improve/uml/StringBuilder.png)
+![](uml/StringBuilder.png)
 1. java.lang.StringBuilder中的建造者模式
 2. 代码说明
 ```java
