@@ -58,17 +58,17 @@
                 <td>02</td>
                 <td>抽象工厂模式</td>
                 <td>桥接模式</td>
-                <td><a href='src/io/honghu/command'>命令模式</a></td>
+                <td><a href='src/main/java/io/honghu/command'>命令模式</a></td>
             </tr>
             <tr>
                 <td>03</td>
-                <td><a href='src/io/honghu/prototype'>原型模式</a></td>
-                <td><a href='src/io/honghu/decorator'>装饰者模式</a></td>
-                <td><a href='src/io/honghu/visitor'>访问者模式</a></td>
+                <td><a href='src/main/java/io/honghu/prototype'>原型模式</a></td>
+                <td><a href='src/main/java/io/honghu/decorator'>装饰者模式</a></td>
+                <td><a href='src/main/java/io/honghu/visitor'>访问者模式</a></td>
             </tr>
             <tr>
                 <td>04</td>
-                <td><a href='src/io/honghu/builder'>建造者模式</a></td>
+                <td><a href='src/main/java/io/honghu/builder'>建造者模式</a></td>
                 <td>组合模式</td>
                 <td>迭代器模式</td>
             </tr>
@@ -76,12 +76,12 @@
                 <td>05</td>
                 <td>工厂模式</td>
                 <td>外观模式</td>
-                <td><a href='src/io/honghu/observer'>观察者模式</a></td>
+                <td><a href='src/main/java/io/honghu/observer'>观察者模式</a></td>
             </tr>
             <tr>
                 <td>06</td>
                 <td>&nbsp;</td>
-                <td><a href='src/io/honghu/flyweight'>享元模式</a></td>
+                <td><a href='src/main/java/io/honghu/flyweight'>享元模式</a></td>
                 <td>中介者模式</td>
             </tr>
             <tr>
@@ -100,19 +100,19 @@
                 <td>09</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td><a href='src/io/honghu/state'>状态模式</a></td>
+                <td><a href='src/main/java/io/honghu/state'>状态模式</a></td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td><a href='src/io/honghu/strategy'>策略模式</a></td>
+                <td><a href='src/main/java/io/honghu/strategy'>策略模式</a></td>
             </tr>
             <tr>
                 <td>11</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td><a href='src/io/honghu/responsibilitychain'>责任链模式</a></td>
+                <td><a href='src/main/java/io/honghu/responsibilitychain'>责任链模式</a></td>
             </tr>
         </tbody>
     </table>

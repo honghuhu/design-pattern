@@ -2,7 +2,6 @@ package io.honghu.singleton;
 
 
 import com.sun.tools.javac.util.Assert;
-import lombok.Getter;
 
 /**
  * 多渠道单例配置类
@@ -56,13 +55,16 @@ public final class Singleton_5_Stars_05_AiConfig {
     }
 
 
-    @Getter
     public final static class Ali {
 
         private String url;
 
         public Ali(String url) {
             this.url = url;
+        }
+
+        public String getUrl() {
+            return url;
         }
     }
 
