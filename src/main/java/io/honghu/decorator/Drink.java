@@ -1,5 +1,10 @@
 package io.honghu.decorator;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public abstract class Drink {
 
     /**
@@ -16,20 +21,4 @@ public abstract class Drink {
      * 计算费用的抽象方法
      */
     public abstract float cost();
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
-
-    public float getPrice() {
-        return price;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
-    }
 }

@@ -2,6 +2,7 @@ package io.honghu.singleton;
 
 
 import com.sun.tools.javac.util.Assert;
+import lombok.Getter;
 
 /**
  * 多渠道单例配置类
@@ -55,6 +56,7 @@ public final class Singleton_5_Stars_05_AiConfig {
     }
 
 
+    @Getter
     public final static class Ali {
 
         private String url;
@@ -70,7 +72,6 @@ class Test {
     public static void main(String[] args) {
         Singleton_5_Stars_05_AiConfig.Ali config = new Singleton_5_Stars_05_AiConfig.Ali("url");
         Singleton_5_Stars_05_AiConfig.initializer().withAli(config).init();
-        System.out.println(Singleton_5_Stars_05_AiConfig.get().ali.toString());
-        System.out.println(Singleton_5_Stars_05_AiConfig.get().ali.toString());
+        System.out.println(Singleton_5_Stars_05_AiConfig.get().ali.getUrl());
     }
 }

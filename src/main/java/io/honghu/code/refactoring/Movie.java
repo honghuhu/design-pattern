@@ -37,7 +37,9 @@ public class Movie {
 
     public String getTitle() {
         return _title;
-    };
+    }
+
+    ;
 
     double getCharge(int daysRented) {
         return _price.getCharge(daysRented);
@@ -80,7 +82,9 @@ class Customer {
 
     public Customer(String name) {
         _name = name;
-    };
+    }
+
+    ;
 
     public void addRental(Rental arg) {
         _rentals.addElement(arg);
@@ -88,7 +92,9 @@ class Customer {
 
     public String getName() {
         return _name;
-    };
+    }
+
+    ;
 
     private int getTotalFrequentRenterPoints() {
         int result = 0;
@@ -151,34 +157,41 @@ abstract class Price {
 }
 
 class ChildrensPrice extends Price {
+    @Override
     int getPriceCode() {
         return Movie.CHILDRENS;
     }
 
+    @Override
     double getCharge(int daysRented) {
         return daysRented > 3 ? 1.5 + (daysRented - 3) * 1.5 : 1.5;
     }
 }
 
 class NewReleasePrice extends Price {
+    @Override
     int getPriceCode() {
         return Movie.NEW_RELEASE;
     }
 
+    @Override
     double getCharge(int daysRented) {
         return daysRented * 3;
     }
 
+    @Override
     int getFrequentRenterPoints(int daysRented) {
         return daysRented > 1 ? 2 : 1;
     }
 }
 
 class RegularPrice extends Price {
+    @Override
     int getPriceCode() {
         return Movie.REGULAR;
     }
 
+    @Override
     double getCharge(int daysRented) {
         return daysRented > 2 ? 2 + (daysRented - 2) * 1.5 : 2;
     }
