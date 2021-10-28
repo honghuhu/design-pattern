@@ -2,7 +2,7 @@
 
 |序号|创建型|结构型|行为型|
 |:----:|:----:|:----:|:----:|
-|01|单例模式|适配器模式|模版方法模式|
+|01|[单例模式](src/io/honghu/singleton)|适配器模式|模版方法模式|
 |02|抽象工厂模式|桥接模式|[命令模式](src/io/honghu/command)|
 |03|[原型模式](src/io/honghu/prototype)|[装饰者模式](src/io/honghu/decorator)|[访问者模式](src/io/honghu/visitor)|
 |04|[建造者模式](src/io/honghu/builder)|组合模式|迭代器模式|

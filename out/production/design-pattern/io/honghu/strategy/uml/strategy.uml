@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.honghu.strategy.improve</OriginalElement>
+  <nodes>
+    <node x="196.0" y="373.0">io.honghu.strategy.improve.FlyBehavior</node>
+    <node x="0.0" y="232.0">io.honghu.strategy.improve.ToyDuck</node>
+    <node x="0.0" y="477.0">io.honghu.strategy.improve.BadFlyBehavior</node>
+    <node x="149.0" y="232.0">io.honghu.strategy.improve.PekingDuck</node>
+    <node x="565.0" y="373.0">io.honghu.strategy.improve.Strategy</node>
+    <node x="95.0" y="0.0">io.honghu.strategy.improve.Duck</node>
+    <node x="0.0" y="576.0">io.honghu.strategy.improve.Client</node>
+    <node x="301.0" y="232.0">io.honghu.strategy.improve.WildDuck</node>
+    <node x="180.0" y="477.0">io.honghu.strategy.improve.GoodFlyBehavior</node>
+    <node x="368.0" y="477.0">io.honghu.strategy.improve.NoFlyBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.honghu.strategy.improve.PekingDuck" target="io.honghu.strategy.improve.Duck">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="91.0" />
+    </edge>
+    <edge source="io.honghu.strategy.improve.GoodFlyBehavior" target="io.honghu.strategy.improve.FlyBehavior">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="io.honghu.strategy.improve.BadFlyBehavior" target="io.honghu.strategy.improve.FlyBehavior">
+      <point x="0.0" y="-27.0" />
+      <point x="80.0" y="452.0" />
+      <point x="218.66666666666666" y="452.0" />
+      <point x="-45.33333333333334" y="27.0" />
+    </edge>
+    <edge source="io.honghu.strategy.improve.NoFlyBehavior" target="io.honghu.strategy.improve.FlyBehavior">
+      <point x="0.0" y="-27.0" />
+      <point x="444.0" y="452.0" />
+      <point x="309.33333333333337" y="452.0" />
+      <point x="45.33333333333337" y="27.0" />
+    </edge>
+    <edge source="io.honghu.strategy.improve.WildDuck" target="io.honghu.strategy.improve.Duck">
+      <point x="0.0" y="-48.0" />
+      <point x="365.5" y="207.0" />
+      <point x="295.0" y="207.0" />
+      <point x="80.0" y="91.0" />
+    </edge>
+    <edge source="io.honghu.strategy.improve.ToyDuck" target="io.honghu.strategy.improve.Duck">
+      <point x="0.0" y="-48.0" />
+      <point x="64.5" y="207.0" />
+      <point x="135.0" y="207.0" />
+      <point x="-80.0" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9288590604026845" x="362.5" y="315.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.honghu.visitor</OriginalElement>
+  <nodes>
+    <node x="530.0" y="439.0">io.honghu.visitor.Computer</node>
+    <node x="795.0" y="481.0">io.honghu.visitor.Keyboard</node>
+    <node x="265.0" y="481.0">io.honghu.visitor.Monitor</node>
+    <node x="0.0" y="622.0">io.honghu.visitor.Client</node>
+    <node x="397.5" y="335.0">io.honghu.visitor.ComputerPart</node>
+    <node x="0.0" y="170.0">io.honghu.visitor.ComputerPartDisplayVisitor</node>
+    <node x="0.0" y="481.0">io.honghu.visitor.Mouse</node>
+    <node x="28.0" y="0.0">io.honghu.visitor.ComputerPartVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.honghu.visitor.Keyboard" target="io.honghu.visitor.ComputerPart">
+      <point x="0.0" y="-27.0" />
+      <point x="917.5" y="409.0" />
+      <point x="611.875" y="409.0" />
+      <point x="91.875" y="27.0" />
+    </edge>
+    <edge source="io.honghu.visitor.Monitor" target="io.honghu.visitor.ComputerPart">
+      <point x="0.0" y="-27.0" />
+      <point x="387.5" y="419.0" />
+      <point x="489.375" y="419.0" />
+      <point x="-30.625" y="27.0" />
+    </edge>
+    <edge source="io.honghu.visitor.ComputerPartDisplayVisitor" target="io.honghu.visitor.ComputerPartVisitor">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="io.honghu.visitor.Computer" target="io.honghu.visitor.ComputerPart">
+      <point x="0.0" y="-69.0" />
+      <point x="652.5" y="419.0" />
+      <point x="550.625" y="419.0" />
+      <point x="30.625" y="27.0" />
+    </edge>
+    <edge source="io.honghu.visitor.Mouse" target="io.honghu.visitor.ComputerPart">
+      <point x="0.0" y="-27.0" />
+      <point x="122.5" y="409.0" />
+      <point x="428.125" y="409.0" />
+      <point x="-91.875" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6141509433962264" x="520.0" y="338.0" />
+  <SelectedNodes>
+    <node>io.honghu.visitor.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

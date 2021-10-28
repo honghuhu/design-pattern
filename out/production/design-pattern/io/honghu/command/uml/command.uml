@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.honghu.command.improve</OriginalElement>
+  <nodes>
+    <node x="0.0" y="126.0">io.honghu.command.improve.LightOffCommand</node>
+    <node x="421.0" y="126.0">io.honghu.command.improve.LightOnCommand</node>
+    <node x="269.0" y="0.0">io.honghu.command.improve.Command</node>
+    <node x="0.0" y="624.0">io.honghu.command.improve.Client</node>
+    <node x="0.0" y="331.0">io.honghu.command.improve.RemoteController</node>
+    <node x="357.0" y="331.0">io.honghu.command.improve.LightReceiver</node>
+    <node x="269.0" y="168.0">io.honghu.command.improve.NoCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.honghu.command.improve.NoCommand" target="io.honghu.command.improve.Command">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="io.honghu.command.improve.LightOffCommand" target="io.honghu.command.improve.Command">
+      <point x="0.0" y="-80.0" />
+      <point x="124.5" y="101.0" />
+      <point x="291.0" y="101.0" />
+      <point x="-44.0" y="38.0" />
+    </edge>
+    <edge source="io.honghu.command.improve.LightOnCommand" target="io.honghu.command.improve.Command">
+      <point x="0.0" y="-80.0" />
+      <point x="545.0" y="101.0" />
+      <point x="379.0" y="101.0" />
+      <point x="44.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6246418338108882" x="334.5" y="339.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
