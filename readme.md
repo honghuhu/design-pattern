@@ -8,7 +8,7 @@
 |04|[建造者模式](src/main/java/io/honghu/builder)|组合模式|迭代器模式|
 |05|工厂模式|外观模式|[观察者模式](src/main/java/io/honghu/observer)|
 |06| |[享元模式](src/main/java/io/honghu/flyweight)|中介者模式|
-|07| |代理模式|备忘录模式|
+|07| |[代理模式](src/main/java/io/honghu/agent)|备忘录模式|
 |08| | |解释器模式（Interpreter模式）|
 |09| | |[状态模式](src/main/java/io/honghu/state)|
 |10| | |[策略模式](src/main/java/io/honghu/strategy)|
