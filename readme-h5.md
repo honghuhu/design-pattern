@@ -1,4 +1,4 @@
-<body style="background-image: linear-gradient(to right, rgba(255, 0, 0, 0.623), yellow); text-align: center;">
+<body style="background: linear-gradient(to right, rgba(255, 0, 0, 0.623), yellow) !important; text-align: center;">
     <table style="border-collapse: collapse; margin: auto;">
         <thead>
             <tr>
