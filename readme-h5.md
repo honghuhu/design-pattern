@@ -1,44 +1,5 @@
-<body>
-    <style>
-        body {
-            background-image: linear-gradient(to right, rgba(255, 0, 0, 0.623), yellow);
-            text-align: center;
-        }
-        a {
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-        }
-        table {
-            border-collapse: collapse;
-            margin: 0 auto;
-        }
-        table td,
-        table th {
-            border: 1px solid #cad9ea79;
-            text-align: center;
-            color: #666;
-            height: 30px;
-        }
-        table thead th {
-            background-color: #cce8ebc0;
-            color:#000000ce;
-            width: 100px;
-        }
-        table tr:nth-child(odd) {
-            background: rgba(255, 255, 255, 0.692);
-        }
-        table tr:nth-child(even) {
-            background: #f5fafa80;
-        }
-        table tr td:first-child {
-            color: rgba(0, 0, 0, 0.918);
-        }
-        table tr td:hover {
-            background: rgba(0, 153, 204, 0.493);
-            color: red;
-        }
-    </style>
-    <table frame="box">
+<body style="background-image: linear-gradient(to right, rgba(255, 0, 0, 0.623), yellow); text-align: center;">
+    <table style="border-collapse: collapse; margin: auto;">
         <thead>
             <tr>
                 <th>序号</th>
