@@ -50,6 +50,90 @@ public final class Integer extends Number implements Comparable<Integer> {
 }
 ```
 
+### 这里提供一个稍微精细一点的代码示例，演示如何使用享元模式绘制大量的圆形。代码注释中也有详细的解释：
+```java
+import java.awt.Color;
+import java.awt.Graphics;
+import java.util.HashMap;
+import java.util.Map;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+// 抽象享元类，定义绘制方法
+interface Shape {
+    void draw(Graphics g, int x, int y);
+}
+
+// 具体享元类，实现Shape接口，表示圆形
+class Circle implements Shape {
+    private int radius;
+
+    public Circle(int radius) {
+        this.radius = radius;
+        System.out.println("创建圆形，半径：" + radius);
+    }
+
+    public void draw(Graphics g, int x, int y) {
+        g.setColor(Color.RED);
+        g.drawOval(x, y, radius * 2, radius * 2);
+    }
+}
+
+// 享元工厂类，用于创建和管理共享的享元对象
+class ShapeFactory {
+    private static final Map<Integer, Shape> circleMap = new HashMap<>();
+
+    // 获取圆形对象，如果已经存在相应的对象，则返回该对象，否则创建新的对象并添加到Map中
+    public static Shape getCircle(int radius) {
+        Shape circle = circleMap.get(radius);
+        if (circle == null) {
+            circle = new Circle(radius);
+            circleMap.put(radius, circle);
+        }
+        return circle;
+    }
+}
+
+// 界面类，用于绘制圆形
+class DrawingPanel extends JPanel {
+    private static final int MAX_RADIUS = 50;
+    private static final int MAX_X = 500;
+    private static final int MAX_Y = 500;
+    private static final int COUNT = 100;
+
+    @Override
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        // 随机绘制100个圆形
+        for (int i = 0; i < COUNT; i++) {
+            // 随机生成圆形的半径和坐标
+            int radius = (int) (Math.random() * MAX_RADIUS);
+            int x = (int) (Math.random() * (MAX_X - radius * 2));
+            int y = (int) (Math.random() * (MAX_Y - radius * 2));
+
+            // 获取圆形对象并绘制
+            Shape circle = ShapeFactory.getCircle(radius);
+            circle.draw(g, x, y);
+        }
+    }
+}
+
+// 主程序类，显示界面并启动绘制任务
+public class Client {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("享元模式示例");
+        frame.setSize(500, 500);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        JPanel panel = new DrawingPanel();
+        frame.add(panel);
+
+        frame.setVisible(true);
+    }
+}
+```
+
 ### 注意事项和细节
 1. 在享元模式这样理解，“享”就表示共享，“元”表示对象
 2. 系统中有大量对象，这些对象消耗大量内存，并且对象的状态大部分可以外部化时，我们就可以考虑选用享元模式
